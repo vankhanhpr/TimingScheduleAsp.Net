@@ -19,6 +19,11 @@ namespace ReportSoftWare
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+             //.ConfigureAppConfiguration(config =>
+             //{
+             //    config.AddJsonFile("appsettings.json");
+             //   // config.AddEnvironmentVariables();
+             //})
+             .UseStartup<Startup>();
     }
 }

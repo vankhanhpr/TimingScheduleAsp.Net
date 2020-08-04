@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportSoftWare", "ReportSoftWare\ReportSoftWare.csproj", "{A58B2C65-6BA8-41A0-B4D5-9F41E8AD63F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportSoftWare", "ReportSoftWare\ReportSoftWare.csproj", "{A58B2C65-6BA8-41A0-B4D5-9F41E8AD63F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelClass", "ModelClass\ModelClass.csproj", "{D317A674-5751-426C-9C3A-B218FFD50656}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A58B2C65-6BA8-41A0-B4D5-9F41E8AD63F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A58B2C65-6BA8-41A0-B4D5-9F41E8AD63F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A58B2C65-6BA8-41A0-B4D5-9F41E8AD63F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D317A674-5751-426C-9C3A-B218FFD50656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D317A674-5751-426C-9C3A-B218FFD50656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D317A674-5751-426C-9C3A-B218FFD50656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D317A674-5751-426C-9C3A-B218FFD50656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

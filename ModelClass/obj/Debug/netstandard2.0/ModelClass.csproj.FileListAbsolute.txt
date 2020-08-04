@@ -1,0 +1,9 @@
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\bin\Debug\netstandard2.0\ModelClass.deps.json
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\bin\Debug\netstandard2.0\ModelClass.dll
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\obj\Debug\netstandard2.0\ModelClass.csprojAssemblyReference.cache
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\obj\Debug\netstandard2.0\ModelClass.csproj.CoreCompileInputs.cache
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\obj\Debug\netstandard2.0\ModelClass.AssemblyInfoInputs.cache
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\obj\Debug\netstandard2.0\ModelClass.AssemblyInfo.cs
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\bin\Debug\netstandard2.0\ModelClass.pdb
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\obj\Debug\netstandard2.0\ModelClass.dll
+F:\ASP.NET\TimingScheduleAsp.Net\ModelClass\obj\Debug\netstandard2.0\ModelClass.pdb

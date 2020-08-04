@@ -17,6 +17,8 @@ using ReportSoftWare.factory;
 using ReportSoftWare.model;
 using ReportSoftWare.quaz;
 using ReportSoftWare.schedule;
+using ReportSoftWare.services;
+using ReportSoftWare.services.impl;
 
 namespace ReportSoftWare
 {
@@ -31,7 +33,8 @@ namespace ReportSoftWare
 
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //init DI
+            services.AddTransient<IReport, ReportImpl>();
 
             // Add Quartz services
             services.AddSingleton<IJobFactory, SingletonJobFactory>();
@@ -41,8 +44,9 @@ namespace ReportSoftWare
             services.AddSingleton<HelloWorldJob>();
             services.AddSingleton(new JobSchedule(
                 jobType: typeof(HelloWorldJob),
-                cronExpression: "0 0/5 * * * ?")); // run every 5 seconds
+                cronExpression: "0/5 * * * * ?")); // run every 5 seconds
             services.AddHostedService<QuartzHostedService>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -56,7 +60,11 @@ namespace ReportSoftWare
             {
                 app.UseHsts();
             }
-
+            app.UseCors(builder => builder
+                                     .AllowAnyOrigin()
+                                     .AllowAnyMethod()
+                                     .AllowAnyHeader()
+                                     .AllowCredentials());
             app.UseHttpsRedirection();
             app.UseMvc();
         }
